@@ -5,7 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
         maven{ url 'https://jitpack.io' }
     }
-    rootProject.name = "addingLibrary"
-    include ':app'
-    include ':AddLib'
 }
+rootProject.name = "addingLibrary"
+include ':app'
+include ':AddLib'
